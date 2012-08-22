@@ -1,0 +1,42 @@
+#Tian R., Aug. 16, 2012
+#combine the same sample
+#
+#CD133+_H2AZ_SRR016977.fastq
+#CD133+_H2AZ_SRR016978.fastq
+cat SRR016977.fastq*bed SRR016978.fastq*bed > CD133+_H2AZ.bed
+#
+#CD133+_H3K27me1_SRR016979.fastq
+#CD133+_H3K27me1_SRR016980.fastq
+cat SRR016979.fastq*bed SRR016980.fastq*bed > CD133+_H3K27me1.bed
+#
+#CD133+_H3K27me3_SRR016981.fastq
+#CD133+_H3K27me3_SRR016982.fastq
+#CD133+_H3K27me3_SRR016983.fastq
+cat SRR016981.fastq*bed SRR016982.fastq*bed SRR016983.fastq*bed > CD133+_H3K27me3.bed
+#
+#CD133+_H3K36me3_SRR016984.fastq
+#CD133+_H3K36me3_SRR016985.fastq
+#CD133+_H3K36me3_SRR016986.fastq
+cat SRR016984.fastq*bed SRR016985.fastq*bed  SRR016986.fastq*bed > CD133+_H3K36me3.bed
+#
+#CD133+_H3K4me1_SRR016987.fastq
+#CD133+_H3K4me1_SRR016988.fastq
+cat SRR016987.fastq*bed SRR016988.fastq*bed > CD133+_H3K4me1.bed
+#
+#CD133+_H3K4me3_SRR016989.fastq
+cat SRR016989.fastq*bed > CD133+_H3K4me3.bed
+#
+#CD133+_H3K9me1_SRR016990.fastq
+#CD133+_H3K9me1_SRR016991.fastq
+#CD133+_H3K9me1_SRR016992.fastq
+cat SRR016990.fastq*bed  SRR016991.fastq*bed  SRR016992.fastq*bed > CD133+_H3K9me1.bed
+#
+#CD133+_H3K9me3_SRR016993.fastq
+#CD133+_H3K9me3_SRR016994.fastq
+#CD133+_H3K9me3_SRR016995.fastq
+cat SRR016993.fastq*bed SRR016994.fastq*bed SRR016995.fastq*bed > CD133+_H3K9me3.bed 
+#
+#CD133+_H4K20me1_SRR016996.fastq
+#CD133+_H4K20me1_SRR016997.fastq
+#CD133+_H4K20me1_SRR016998.fastq
+cat SRR016996.fastq*bed SRR016997.fastq*bed  SRR016998.fastq*bed > CD133+_H4K20me1.bed
